@@ -27,7 +27,7 @@ class AppTheme {
       // ignore: unrelated_type_equality_checks
       primaryColorLight: AppColors.light_blue,
       backgroundColor: Colors.white,
-      splashColor: Color(0xFF302b63),
+      splashColor: const Color(0xFF302b63),
       primarySwatch: mamaPink,
       scaffoldBackgroundColor: Colors.white,
       fontFamily: 'Poppins',
@@ -38,7 +38,7 @@ class AppTheme {
   }
 
   static ThemeData calendarThemeData() => themeData().copyWith(
-        accentColor: themeData().primaryColor,
+        colorScheme: ColorScheme.fromSwatch().copyWith(secondary: themeData().primaryColor),
       );
 
   static ThemeData antenatalThemeData() => themeData().copyWith(

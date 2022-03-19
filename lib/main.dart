@@ -2,7 +2,6 @@
 import 'package:flutter/material.dart';
 import 'package:samplefirst/splash_screen.dart';
 import 'package:samplefirst/AppTheme.dart';
-
 import 'app_routes.dart';
 
 final GlobalKey<NavigatorState> navKey = GlobalKey<NavigatorState>();
