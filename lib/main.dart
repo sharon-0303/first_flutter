@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         navigatorKey: navKey,
         debugShowCheckedModeBanner: false,
         theme: AppTheme.themeData(),
-        home: SplashScreen(),
+        home: const SplashScreen(),
       );
   }
 }
